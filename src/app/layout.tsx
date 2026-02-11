@@ -14,50 +14,48 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Yuvraj Singh Portfolio",
-  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
+  title: "BAYA Chaymae Portfolio",
+  description: "Portfolio de Chaymae Baya, spécialiste en électronique embarquée et intelligence artificielle. Projets en vision par ordinateur, Jetson Nano, ROS, RFID et systèmes intelligents.",
   keywords: [
-    "Yuvraj Singh", 
-    "Portfolio", 
-    "Developer", 
-    "AI", 
-    "Interactive", 
-    "Memoji", 
-    "Web Development",
-    "Full Stack",
+    "Chaymae Baya",
+    "Portfolio",
+    "Electronique embarquée",
+    "Embedded Systems",
+    "Intelligence Artificielle",
+    "Computer Vision",
+    "Jetson Nano",
+    "Raspberry Pi",
+    "ROS",
+    "RFID",
+    "Face Recognition",
     "Next.js",
-    "React"
+    "React",
   ],
   authors: [
     {
-      name: "Yuvraj Singh",
-      url: "https://yuvraj.bio",
+      name: "BAYA Chaymae",
+      url: "https://baya-chaymae-portfolio.vercel.app",
     },
   ],
-  creator: "Yuvraj Singh",
+  creator: "BAYA Chaymae",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yuvraj.bio",
-    title: "Yuvraj Singh Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Yuvraj Singh Portfolio",
+    url: "https://baya-chaymae-portfolio.vercel.app",
+    title: "BAYA Chaymae Portfolio",
+    description: "Portfolio professionnel de Chaymae Baya : électronique embarquée, IA, vision artificielle et systèmes intelligents intelligents.",
+    siteName: "BAYA Chaymae Portfolio",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Yuvraj Singh Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@yuvrajsingh",
-  },
+
   icons: {
     icon: [
       {
-        url: "/logo-yuvi.svg",
+        url: "/logo_baya.svg",
         sizes: "any",
       }
     ],
-    shortcut: "/logo-yuvi.svg?v=2",
-    apple: "/apple-touch-icon.svg?v=2",
+    shortcut: "/logo_baya.svg",
+    apple: "/apple-touch-icon.svg",
   },
 };
 
@@ -70,24 +68,26 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <link rel="icon" href="/logo-yuvi.svg" sizes="any" />
+        <link rel="icon" href="/logo_baya.svg" sizes="any" />
         {/* Google Analytics */}
         <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-QTH2CN2YRQ"
-          strategy="afterInteractive"
-        />
+           async
+           src="https://www.googletagmanager.com/gtag/js?id=G-QQFKG0VDH9"
+           strategy="afterInteractive"
+           />
         <Script
+
+        
           id="google-analytics"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-              window['dataLayer'] = window['dataLayer'] || [];
-              function gtag(){window['dataLayer'].push(arguments);}
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-QTH2CN2YRQ');
-            `,
-          }}
+              gtag('config', 'G-QQFKG0VDH9');
+               `, 
+              }}
         />
       </head>
       <body

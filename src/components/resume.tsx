@@ -8,13 +8,13 @@ import Image from 'next/image';
 export function Resume() {
   // Resume details
   const resumeDetails = {
-    title: "Yuvraj's Resume",
-    description: 'Data Science & AI Enthusiast',
+    title: "Chaymae Baya - CV",
+    description: 'Embedded Systems Engineer & AI / Robotics Projects 🚀',
     fileType: 'PDF',
-    lastUpdated: 'July 2025',
-    fileSize: '0.3 MB',
-    previewImageSrc: '/Resume_Yuvraj_Singh_AI.png',
-    downloadUrl: '/Resume_Yuvraj_Singh_AI.pdf',
+    lastUpdated: 'Février 2026',
+    fileSize: '0.5 MB',
+    previewImageSrc: '/Resume_baya_chaymae.jpg',
+    downloadUrl: '/Resume_baya_chaymae.pdf',
   };
 
   const handleDownload = () => {

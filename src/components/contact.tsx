@@ -9,45 +9,39 @@ export function Contact() {
     {
       icon: <Mail className="h-5 w-5" />,
       title: 'Email',
-      value: 'yuvraj0412s@gmail.com',
-      href: 'mailto:yuvraj0412s@gmail.com',
+      value: 'baya.chaymae123@gmail.com',
+      href: 'mailto:baya.chaymae123@gmail.com',
       color: 'text-blue-600'
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: 'Phone',
-      value: '+91 8930138841',
-      href: 'tel:+918930138841',
+      value: '+212687373748',
+      href: 'tel:+212687373748',
       color: 'text-green-600'
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: 'Location',
-      value: 'Gurugram, India',
+      value: 'Rabat, Morocco',
       href: '#',
       color: 'text-purple-600'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       title: 'LinkedIn',
-      value: 'yuvraj-singh-77601827a',
-      href: 'https://linkedin.com/in/yuvraj-singh-77601827a',
+      value: 'chaymae-baya',
+      href: 'https://www.linkedin.com/in/chaymae-baya/',
       color: 'text-blue-700'
     },
     {
       icon: <Github className="h-5 w-5" />,
       title: 'GitHub',
-      value: 'yuvraj0412s',
-      href: 'https://github.com/yuvraj0412s',
+      value: 'chaymabaya',
+      href: 'https://github.com/chaymabaya',
       color: 'text-gray-800'
     },
-    {
-      icon: <Instagram className="h-5 w-5" />,
-      title: 'Instagram',
-      value: 'uv.0402',
-      href: 'https://www.instagram.com/uv.0402/profilecard/?igsh=MTBucHR4N2c0djZndQ==',
-      color: 'text-pink-600'
-    }
+    
   ];
 
   return (

@@ -65,13 +65,13 @@ export default function Home() {
   useEffect(() => {
     // Précharger les assets du chat en arrière-plan
     const img = new window.Image();
-    img.src = '/landing-memojis.png';
+    img.src = '/landing-memojis1.jpg';
 
     // Précharger les vidéos aussi
     const linkWebm = document.createElement('link');
     linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
     linkWebm.as = 'video';
-    linkWebm.href = '/final_memojis.webm';
+    linkWebm.href = '/Final_memojis.webm';
     document.head.appendChild(linkWebm);
 
     const linkMp4 = document.createElement('link');
@@ -89,7 +89,7 @@ export default function Home() {
           className="hidden bg-gradient-to-b from-neutral-500/10 to-neutral-500/0 bg-clip-text text-[10rem] leading-none font-black text-transparent select-none sm:block lg:text-[16rem]"
           style={{ marginBottom: '-2.5rem' }}
         >
-          Yuvraj
+          Baya 
         </div>
       </div>
 
@@ -101,7 +101,7 @@ export default function Home() {
           animationDuration={1.5}
           label="Star"
           size={'sm'}
-          repoUrl="https://github.com/yuvraj0412s/ai-native_portfolio.git"
+          repoUrl="https://github.com/chaymabaya"
         />
       </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-secondary-foreground mt-1 text-xl font-semibold md:text-2xl">
-          Hey, I'm Yuvraj Singh 👋
+          Hey, I'm Baya chaymae 👋
         </h2>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
           AI Portfolio
@@ -141,7 +141,7 @@ export default function Home() {
       {/* centre memoji */}
       <div className="relative z-10 h-52 w-48 overflow-hidden sm:h-72 sm:w-72">
         <Image
-          src="/landing-memojis.png"
+          src="/landing-memojis5.png"
           alt="Hero memoji"
           width={2000}
           height={2000}

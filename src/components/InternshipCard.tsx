@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 const InternshipCard = () => {
   const openMail = () => {
-    window.open('mailto:yuvraj0412s@gmail.com', '_blank');
+    window.open('mailto:baya.chaymae123@gmail.com', '_blank');
   };
   const router = useRouter();
 
@@ -23,14 +23,14 @@ const InternshipCard = () => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/profile-yuvi.jpg"
-              alt="Yuvraj's avatar"
+              src="/profile-baya.png"
+              alt="Chaymae's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Yuvraj Singh
+              Chaymae Baya
             </h2>
             <p className="text-muted-foreground text-sm">
               Internship Application
