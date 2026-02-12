@@ -23,15 +23,15 @@ const PROJECT_CONTENT = [
       'Node.js',
       'Vercel',
     ],
-    date: 'August 2025', // <-- TODO: Update with your project date
+    date: 'FEBRUARY 2026', // <-- TODO: Update with your project date
     links: [
-      {
-        name: 'Live Demo - You Are Here!',
-        url: 'https://www.yuvraj.bio',
-      },
+      // {
+      //   name: 'Live Demo - You Are Here!',
+      //   url: 'https://www.yuvraj.bio',
+      // },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/ai-native-portfolio',
+        url: 'https://github.com/chaymabaya/Portfolio',
       },
     ],
     images: [
@@ -39,48 +39,31 @@ const PROJECT_CONTENT = [
       { src: '/projects/ai-portfolio-home.png', alt: 'Homepage of the AI Native Portfolio' },
     ],
   },
+  
   {
-  title: 'Smart Access Control System',
+  title: 'Facial Emotion Recognition for Elderly People using Jetson Nano',
   description:
-    'Designed and implemented a smart security system combining RFID authentication and facial recognition. The door unlocks automatically when a valid RFID card or a recognized face is detected, using embedded hardware and real-time computer vision.',
-  techStack: [
-    'Python',
-    'OpenCV',
-    'FaceNet',
-    'Raspberry Pi',
-    'Camera Module',
-    'RFID',
-    'Embedded Linux',
-  ],
-  date: '2024',
-  links: [],
-  images: [
-    {
-      src: '/projects/access-control.png',
-      alt: 'Smart access control system with RFID and face recognition',
-    },
-  ],
-},
-
-  {
-  title: 'AI-Powered Medical Assistance Robot',
-  description:
-    'Developed an intelligent robotic assistant integrating computer vision and AI for patient interaction. The system performs facial recognition, emotion analysis, and real-time perception using NVIDIA Jetson hardware.',
+    'Developed a real-time facial emotion recognition system dedicated to elderly people using NVIDIA Jetson Nano. The system detects faces, analyzes emotional states, and enables intelligent monitoring through embedded AI and edge computing. Designed for healthcare and assistive robotics applications.',
   techStack: [
     'Jetson Nano',
-    'Jetson TX2 NX',
     'Python',
     'ROS',
     'OpenCV',
     'FaceNet',
     'Embedded Linux',
+    'TensorFlow / PyTorch',
+    'Computer Vision',
+    'Edge AI',
+    "'FER2013' Dataset",
   ],
   date: '2025',
-  links: [],
+  links: [
+      { name: 'GitHub Repository', url: 'https://github.com/chaymabaya/Detection_of_emotion' },
+  ],
   images: [
     {
-      src: '/projects/medical-robot.png',
-      alt: 'AI-powered medical assistance robot',
+      src: '/projects/Facial_Emotion_Recognition.png',
+      alt: 'Facial emotion recognition system on Jetson Nano',
     },
   ],
 },
@@ -98,7 +81,7 @@ const PROJECT_CONTENT = [
   links: [],
   images: [
     {
-      src: '/projects/dsp-audio.png',
+      src: '/projects/Real_Time_Digital_Audio.png',
       alt: 'Real-time audio noise filtering using DSP',
     },
   ],
@@ -211,50 +194,27 @@ export const data = [
    {
     category: 'AI & Next.js',
     title: 'AI-Native Portfolio',
-    src: '/projects/ai-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    src: '/projects/ai-portfolio-home.png', // <-- TODO: Make sure you have a preview image at this path
     content: (
       // The `title` here MUST match the full title in PROJECT_CONTENT
       <ProjectContent project={{ title: 'AI-Native Portfolio' }} />
     ),
   },
   {
-    category: 'Embedded AI & Robotics',
-    title: 'Smart Access Control System',
-    src: '/projects/agroai-preview.png', // Use the main homepage screenshot for the preview
+    category: 'Embedded AI & Computer Vision',
+    title: 'Facial Emotion Recognition',
+    src: '/projects/Facial_Emotion_Recognition.png', // Use the main homepage screenshot for the preview
     content: (
-      <ProjectContent project={{ title: 'AgroAI' }} />
+      <ProjectContent project={{ title: 'Facial Emotion Recognition - Jetson Nano' }} />
     ),
   },
   {
-    category: 'Full-Stack & AI',
-    title: 'Holohype',
-    src: '/projects/holohype-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'DSP & Audio Processing',
+    title: 'Real-Time Digital Audio Processing',
+    src: '/projects/Real_Time_Digital_Audio.png', // Use the main homepage screenshot for the preview
     content: (
-      <ProjectContent project={{ title: 'Holohype' }} />
+      <ProjectContent project={{ title: 'Real-Time Digital Audio Processing' }} />
     ),
   },
-  {
-    category: 'Frontend Development',
-    title: 'Old Portfolio',
-    src: '/projects/old-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
-    content: (
-      <ProjectContent project={{ title: 'Old Portfolio' }} />
-    ),
-  },
-  {
-    category: 'Frontend Development',
-    title: 'YouTube Clone',
-    src: '/projects/yt-clone-preview.png', // <-- TODO: Make sure you have a preview image at this path
-    content: (
-      <ProjectContent project={{ title: 'YouTube Clone' }} />
-    ),
-  },
-  {
-    category: 'Edge Computing',
-    title: 'Latency-Aware Task Partitioning',
-    src: '/projects/RP_preview.png', // Placeholder image
-    content: (
-      <ProjectContent project={{ title: 'Latency-Aware Task Partitioning' }} />
-    ),
-  },
+ 
 ];

@@ -81,7 +81,7 @@ const InternshipCard = () => {
                 <li>Python, Next.js, SQL</li>
                 <li>Flask, Django</li>
                 <li>OpenAI, Mistral, Claude</li>
-                <li>Prompt engineering, fine-tuning</li>
+                <li>chaymae singhpt engineering, fine-tuning</li>
               </ul>
               <ul className="list-disc pl-4">
                 <li>JavaScript, React</li>

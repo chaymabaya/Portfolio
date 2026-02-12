@@ -45,7 +45,7 @@ Visit `http://localhost:3000` to test your portfolio.
 
 ## ✅ **What's Been Updated:**
 
-- ✅ **Personal Information**: Yuvraj Singh, 22, Gurugram
+- ✅ **Personal Information**: chaymae baya, 26 , Kenitra
 - ✅ **Contact Details**: Email, phone, LinkedIn, GitHub, Instagram
 - ✅ **AI Personality**: Customized with your background and experience
 - ✅ **API Integration**: Switched from OpenAI to Mistral AI

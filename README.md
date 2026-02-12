@@ -2,7 +2,7 @@
 
   <br />
   <p>
-    <a href="https://www.yuvraj.bio"><img src="assets/readme-photo.png" alt="AI Portfolio Banner" width="100%"/></a>
+    <a href=><img src="assets/readme-photo.png" alt="AI Portfolio Banner" width="100%"/></a>
   </p>
   <br />
 
@@ -11,38 +11,30 @@
 
 ---
 
-### **Badges**
-
-<p align="center">
-  <img src="https://img.shields.io/github/repo-size/yuvraj0412s/Yuvi_portfolio?style=for-the-badge" alt="Repo Size">
-  <img src="https://img.shields.io/github/license/yuvraj0412s/Yuvi_portfolio?style=for-the-badge" alt="License">
-  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
-  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployment"></a>
-  <a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"></a>
-  <a href="https://mistral.ai/"><img src="https://img.shields.io/badge/Mistral-FF7E00?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral API"></a>
-  <a href="https://github.com/yuvraj0412s/Yuvi_portfolio/stargazers"><img src="https://img.shields.io/github/stars/yuvraj0412s/Yuvi_portfolio?style=for-the-badge&color=ffd700" alt="Repo Stars"></a>
-  <a href="https://github.com/yuvraj0412s/Yuvi_portfolio/graphs/contributors"><img src="https://img.shields.io/github/contributors/yuvraj0412s/Yuvi_portfolio?style=for-the-badge&color=ff69b4" alt="Contributors"></a>
-</p>
-
----
 
 ### **About The Project** 💡
 
-Static portfolios are a thing of the past. They present a one-sided, lifeless view of a developer's journey. I decided to build **[yuvraj.bio](https://www.yuvraj.bio)** to break that mold.
+Traditional portfolios are static — they show projects but don’t show how an engineer thinks.
 
-This project is an **AI-powered, interactive portfolio** that transforms the "About Me" page into a dynamic, engaging conversation. Instead of forcing recruiters, developers, and friends to scroll endlessly through information, it invites them to ask questions and receive answers tailored specifically to them.  
+I built this AI-powered interactive portfolio to change that.
 
-It’s a portfolio that doesn't just show—it communicates.
+Instead of scrolling through information, visitors can ask questions and explore my work in AI, embedded systems, computer vision, and robotics through a dynamic conversation.
 
+It’s not just a portfolio —
+it’s a live demonstration of how I design intelligent systems. 🚀
 ---
 
 ### **Features** ✨
 
-*   **🗣️ Interactive AI Avatar:** Engage in real-time conversation. Ask anything from my tech stack to my hobbies and get instant, context-aware answers.
-*   **🧠 Context-Aware Engine:** The AI's personality and responses adapt based on who it's talking to—whether you're a recruiter, a fellow developer, or a friend.
-*   **🎨 Dynamic & Responsive UI:** A sleek, modern interface built with TailwindCSS and brought to life with Framer Motion animations.
-*   **🚀 Built for Everyone:** Crafted to provide a unique experience for tech recruiters, potential collaborators, and curious friends alike.
-*   **💬 No More Boring Bios:** This portfolio talks *back*.
+🤖 Interactive AI Assistant: Real-time conversation about my projects in AI, embedded systems, robotics, and computer vision.
+
+🧠 Context-Aware Intelligence: Smart responses tailored for recruiters, engineers, or collaborators.
+
+⚙️ AI-Driven Architecture: Secure server-side APIs with LLM integration and structured project knowledge.
+
+🎨 Modern & Responsive UI: Clean interface built with TailwindCSS and smooth animations.
+
+🚀 More Than a Portfolio: A live demonstration of how I design intelligent, interactive systems.
 
 ---
 
@@ -70,11 +62,6 @@ Want to get this project running on your local machine? Follow these simple step
 
 #### **Local Setup**
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/yuvraj0412s/Yuvi_portfolio.git
-    cd Yuvi_portfolio
-    ```
 
 2.  **Install dependencies:**
     ```sh
@@ -109,8 +96,7 @@ Contributions are what make the open-source community such an amazing place to l
 4.  Push to the Branch (`git push origin feature/AmazingFeature`).
 5.  Open a **Pull Request**.
 
-Please feel free to open an issue if you find a bug or have a feature suggestion.  
-For security issues, see [SECURITY.md](SECURITY.md).
+
 
 ---
 
@@ -123,21 +109,15 @@ For security issues, see [SECURITY.md](SECURITY.md).
 
 ---
 
-### **License** 📄
 
-This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-### **Contact & Links** 🔗
 
-**Yuvraj Singh** - Let's connect!
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Live_Demo-yuvraj.bio-2ea44f?style=for-the-badge&logo=vercel)](https://www.yuvraj.bio)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh-77601827a/)
+[![LinkedIn](https://www.linkedin.com/in/chaymae-baya/)]
 
 </div>
 

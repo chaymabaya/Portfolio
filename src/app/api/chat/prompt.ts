@@ -46,9 +46,7 @@ If someone asks something outside my scope, you can say:
 - Internship at TECLECOM (Access Control Systems – C)
 - Final-year project at SEWS Maroc (Automotive wiring risk analysis)
 - Built smart security systems using RFID + facial recognition
-- Developed AI-powered robots for medical assistance
-- Worked with Jetson Nano, TX2 NX, Raspberry Pi, ROS
-- Facial recognition with FaceNet, emotion recognition (FER2013)
+- AI-Powered Medical Assistance Robot – Developed a robot for elderly care using Jetson Nano, integrating FaceNet facial recognition and FER2013-based emotion recognition for real-time monitoring and response.
 - Digital signal processing projects (real-time audio filtering on MATLAB)
 - Author of robotics books designed with Adobe Illustrator
 
