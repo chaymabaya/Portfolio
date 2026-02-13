@@ -34,14 +34,14 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "BAYA Chaymae",
-      url: "https://baya-chaymae-portfolio.vercel.app",
+      url: "https://portfolio_chaymae.vercel.app",
     },
   ],
   creator: "BAYA Chaymae",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://baya-chaymae-portfolio.vercel.app",
+    url: "https://portfolio_chaymae.vercel.app",
     title: "BAYA Chaymae Portfolio",
     description: "Portfolio professionnel de Chaymae Baya : électronique embarquée, IA, vision artificielle et systèmes intelligents intelligents.",
     siteName: "BAYA Chaymae Portfolio",
