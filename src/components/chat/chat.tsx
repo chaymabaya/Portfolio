@@ -96,8 +96,8 @@ const Avatar = dynamic<AvatarProps>(
                 playsInline
                 loop
               >
-                <source src="/final_memojis.webm" type="video/webm" />
-                <source src="/final_memojis_ios.mp4" type="video/mp4" />
+                <source src="/final-ia_ZiG13lqv.webm" type="video/webm" />
+                <source src="/final-ia_ZiG13lqv.mp4" type="video/mp4" />
               </video>
             )}
           </div>
@@ -289,7 +289,7 @@ const Chat = () => {
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/yuvraj0412s"
+            repoUrl="https://github.com/chaymabaya"
           />
         </div>
       </div>
@@ -390,15 +390,6 @@ const Chat = () => {
     />
   </div>
 </div>
-
-        <a
-          href="https://linkedin.com/in/yuvraj-singh-77601827a"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
-        >
-          @yuvraj-singh
-        </a>
       </div>
     </div>
   );

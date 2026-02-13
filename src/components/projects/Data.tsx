@@ -81,7 +81,7 @@ const PROJECT_CONTENT = [
   links: [],
   images: [
     {
-      src: '/projects/Real_Time_Digital_Audio.png',
+      src: '/projects/image.png',
       alt: 'Real-time audio noise filtering using DSP',
     },
   ],
@@ -202,18 +202,18 @@ export const data = [
   },
   {
     category: 'Embedded AI & Computer Vision',
-    title: 'Facial Emotion Recognition',
+    title: 'Facial Emotion Recognition ',
     src: '/projects/Facial_Emotion_Recognition.png', // Use the main homepage screenshot for the preview
     content: (
-      <ProjectContent project={{ title: 'Facial Emotion Recognition - Jetson Nano' }} />
+      <ProjectContent project={{ title: 'Facial Emotion Recognition for Elderly People using Jetson Nano' }} />
     ),
   },
   {
     category: 'DSP & Audio Processing',
-    title: 'Real-Time Digital Audio Processing',
-    src: '/projects/Real_Time_Digital_Audio.png', // Use the main homepage screenshot for the preview
+    title: 'Real-Time Digital Audio Noise Filtering',
+    src: '/projects/image.png', // Use the main homepage screenshot for the preview
     content: (
-      <ProjectContent project={{ title: 'Real-Time Digital Audio Processing' }} />
+      <ProjectContent project={{ title: 'Real-Time Digital Audio Noise Filtering' }} />
     ),
   },
  

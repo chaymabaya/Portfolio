@@ -1,4 +1,4 @@
-# 🚀 Portfolio Setup Instructions for Yuvraj
+# 🚀 Portfolio Setup Instructions for chaymae
 
 ## 📋 **Step 1: Install Dependencies**
 

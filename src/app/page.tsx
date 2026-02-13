@@ -71,13 +71,13 @@ export default function Home() {
     const linkWebm = document.createElement('link');
     linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
     linkWebm.as = 'video';
-    linkWebm.href = '/Final_memojis.webm';
+    linkWebm.href = '/final-ia_ZiG13lqv.webm';
     document.head.appendChild(linkWebm);
 
     const linkMp4 = document.createElement('link');
     linkMp4.rel = 'prefetch';
     linkMp4.as = 'video';
-    linkMp4.href = '/final_memojis_ios.mp4';
+    linkMp4.href = '/final-ia_ZiG13lqv.mp4';
     document.head.appendChild(linkMp4);
   }, []);
 

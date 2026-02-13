@@ -16,12 +16,12 @@
 │   ├── final_memojis_ios.mp4
 │   ├── final_memojis.webm
 │   ├── landing-memojis.png
-│   ├── logo-yuvi.svg
+│   ├── logo-baya.svg
 │   ├── Plant_disease_detectionwebsite.png
-│   ├── profile-yuvi-03.jpeg
-│   ├── profile-yuvi.jpg
-│   ├── Resume_Yuvraj_Singh_AI.pdf
-│   └── Resume_Yuvraj_Singh_AI.png
+│   ├── profile-baya-03.jpeg
+│   ├── profile-baya.jpg
+│   ├── Resume_chaymae_Singh_AI.pdf
+│   └── Resume_chaymae_Singh_AI.png
 ├── README.md
 ├── SETUP_INSTRUCTIONS.md
 ├── src
